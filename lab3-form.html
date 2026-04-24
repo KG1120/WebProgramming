@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    Lab 3 Form
+</head>
+
+<body>
+
+    <form action="https://www.w3schools.com/action_page.php" method="get">
+
+    <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+    </p>
+
+    <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+    </p>
+
+    <div>
+        <select name="Coffee-Type">
+            <option value="">Select Coffee type</option>
+            <option value="BrewedCoffee">Brewed Coffee</option>
+            <option value="Americano">Americano</option>
+            <option value="Latte">Latte</option>
+            <option value="Cappuccino">Cappuccino</option>
+            <option value="Mocha">Mocha</option>
+            <option value="Macchiato">Macchiato</option>
+        </select>
+    </div>
+
+    <div>
+        <fieldset>
+
+            <legend>Select a cup size:</legend>
+
+            <div>
+                <input type="radio" id="Small" name="Size" value="Small" checked />
+                <label for="Small">Small</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Medium" name="Size" value="Medium" />
+                <label for="Medium">Medium</label>
+            </div>
+
+            <div>
+                <input type="radio" id="large" name="Size" value="Large" />
+                <label for="Large">Large</label>
+            </div>
+        </fieldset>
+    </div>
+
+    <fieldset>
+        <legend>Extras</legend>
+
+        <div>
+            <input type="checkbox" id="Whipped-cream" name="Extras" value="Whipped-cream">
+                <lable for="Whipped-cream">Whipped Cream</lable>
+            
+            <input type="checkbox" id="Extra-shot" name="Extras" value="Extra-shot">
+                <lable for="Extra-shot">Extra Shot</lable>
+
+            <input type="checkbox" id="Almond-Milk" name="Extras" value="Almond-Milk">
+                <lable for="Almond-Milk">Almond Milk</lable>
+
+            <input type="checkbox" id="Milk" name="Extras" value="Milk">
+                <lable for="Milk">Milk</lable>
+        </div>
+
+    </fieldset>
+
+    <p>
+		<label for="">Special Instructions: </label>
+		<textarea id="Special-Instructions" name="Special-Instructions"></textarea>
+	</p>
+
+    <div class="button">
+        <button type="submit">Submit</button>
+    </div>   
+
+    </form>
+
+</body>
+</html>
