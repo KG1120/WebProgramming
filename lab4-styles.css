@@ -1,0 +1,34 @@
+html{
+    background-color: burlywood;
+    font-family: "Arial";
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    padding: 10px;
+}
+
+li::marker{
+    color: brown;
+}
+
+li{
+    color:white;
+}
+
+a:hover{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+.styled-box{
+    border: 10px solid seagreen;
+    background-color: lightgrey;
+    padding: 15px;
+    text-align: center;
+}
